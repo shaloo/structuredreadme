@@ -12,6 +12,9 @@ If you'd like to learn more about the big picture and how how OSS contributions 
 
 In case you are looking at the first steps first, such as setting up GitHub account onwards - do visit http://www.egghead.io and read this nice post about [Egghead and more].
 
+# Creating sample Structured README
+Besides contributing to the Structured README proposal, you can also contribute by creating examples of a real life README based on any Open Source Software of your choice or preference.  Refer to the Example folder in source tree for some examples.  Note these are not yet part of original OSS, but I hope it will be soon!
+
 [Code of Conduct]: http://contributor-covenant.org
 [OSS Contribution Guidelines]: https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/master/CONTRIBUTING.md
 [How to Contribute to OSS]: https://github.com/freeCodeCamp/how-to-contribute-to-open-source
