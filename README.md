@@ -2,7 +2,7 @@
 # Structured README
 ![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)
 
-> Its time, README reached a much wider audience, beyond developers to speed up OSS adoption! Structured README is an effort to help evolve README in a more structured manner such that it covers information related to OSS usage in order to solve real life pain points.
+> Its time, README reached a much wider audience, beyond developers, to speed up OSS adoption! Structured README is an effort to help evolve README in a more structured manner, such that it covers information on how a piece of OSS can be used to solve real life pain points.
 
 ## Table of content
 
@@ -28,81 +28,82 @@ Recent [OSS survey by GitHub] highlights the fact that open source is used by th
 
 Here is a list of some of the common pain points associated with a typical README file, be it for a small or large OSS component:
 
-•	Insensitivity to audience needs: There are several good enough README templates but none which addresses non-developer audience requirements effectively.
-•	Level of detail: Most of the READMEs are sketchy at best, bare minimum, workable for developers but unusable by technical writers, marketing, product management, sales and business decision makers.
-•	Use Case and Customer Pain Point orientation: Absence of use cases definitions, not easy to comprehend specific pain points that can be solved by the software component corresponding to a README
-•	OSS Ecosystem Integration: Little or no information about integration with other OSS components which can have time, cost, manageability implications for the user.
-•	Case Studies Missing: No pointers to published case studies where the software corresponding to a README was deployed and solved a real life pain point
-•	Performance, Benchmarks: There is hardly any section which focuses on software performance and real-life deployment statistics, published reports, benchmarking insights or pointers to the same.
-•	Balancing the development vs. adoption needs: There is a dichotomy when it comes to developer goal posts and customer/user adoption needs.  For a developer it is imperative to complete the software features and fix bugs for release instead of spending time on documenting it for onboarding purposes.  Marketing and sales are all about customer onboarding and related aids, documentation being one of the key aids. 
-•	Contributions: Several OSS languish for contributions and encounter general user apathy. Besides time constraints, documentation typically lags software traditionally due to the fact that developers are not motivated to help new developers onboard a project for competitive reasons. This same attitude that works in proprietary enterprises does not work at all for OSS which sustains itself by community contributions.  It is a demand supply issue.  Earlier, with fewer OSS components, take it or leave it approach worked.  Not any more, especially when there are so many to choose from. What one can’t understand one can’t contribute to.  Contributions beyond developing code can be valuable to the success of an OSS.  It takes some level of expertise to become familiar with OSS before one can use it effectively.  It takes a lot more effort to contribute and unless onboarding is standardized and simplified, the barrier to adopting OSS for contribution will continue to remain higher for most potential contributors who have to jump different hoops to learn to contribute to one team vs. another team within the jungle of tools and technologies.
+- **Insensitivity to audience needs:** There are several good enough README templates but none which addresses non-developer audience requirements effectively.
+- **Level of detail:** Most of the READMEs are sketchy at best, bare minimum, workable for developers but unusable by technical writers, marketing, product management, sales and business decision makers.
+- **Use Case and Customer Pain Point orientation:** Absence of use cases definitions, not easy to comprehend specific pain points that can be solved by the software component corresponding to a README
+- **OSS Ecosystem Integration:** Little or no information about integration with other OSS components which can have time, cost, manageability implications for the user.
+- **Case Studies Missing:** No pointers to published case studies that describe usage and deployment of software that helped solve a real life pain point. This limit application of software to myriad requirements.
+- **Performance, Benchmarks:** There is hardly any section which focuses on software performance and real-life deployment statistics, published reports, benchmarking insights or pointers to the same.
+- **Balancing the development vs. adoption needs:** There is a dichotomy when it comes to developer goal posts and customer/user adoption needs.  For a developer it is imperative to complete the software features and fix bugs for release instead of spending time on documenting it for onboarding purposes.  Marketing and sales are all about customer onboarding and related aids, documentation being one of the key aids. 
+- **Contributions:** Several OSS languish for contributions and encounter general user apathy. Besides time constraints, documentation typically lags software traditionally due to the fact that developers are not motivated to help new developers onboard a project for competitive reasons. This same attitude that works in proprietary enterprises does not work at all for OSS which sustains itself by community contributions.  It is a demand supply issue.  Earlier, with fewer OSS components, take it or leave it approach worked.  Not any more, especially when there are so many to choose from. What one can’t understand one can’t contribute to.  Contributions beyond developing code can be valuable to the success of an OSS.  It takes some level of expertise to become familiar with OSS before one can use it effectively.  It takes a lot more effort to contribute and unless onboarding is standardized and simplified, the barrier to adopting OSS for contribution will continue to remain higher for most potential contributors who have to jump different hoops to learn to contribute to one team vs. another team within the jungle of tools and technologies.
 
 ## Defining Structured README
-We live in a software development world running agile sprints, professing DocOps and Content 4.0 strategies.  The documentation supply chain from developers to customers can be seeded with a Structured README and utilized effectively by all those who help promote the software and spearhead its adoption.  Here is what a potential Structured README looks like:
+We live in a software development world running [agile sprints], professing [DocOps] and [Content 4.0] strategies.  The documentation supply chain from developers to customers can be seeded with a Structured README and utilized effectively by all those who help promote the software and spearhead its adoption.  Here is what a potential Structured README looks like:
 
-1.	Header: (Text prefereably with a few links)
-a.	Project / Component Name 
-b.	Purpose:  Why is it needed, who is the intended audience and when will they need this software.  Note, typical README focus is on what the software does as opposed to why was it created in the first place? [Word limit – maximum two sentences, link to project website or other document that describes its purpose]
-c.	Optional: Badges, branding, Current Status, Adoption Statistics (if available) Demo screenshots, link to related concepts 
-2.	Mid-Section: (preferably all links in this section pointing to details elsewhere.)
-a.	Adoption Pre-requisites:
-i.	:  Technology / Technical Concepts / SW Names only with suitable links
-ii.	Recommended / Required scale of deployment
-iii.	Performance / Benchmarks Statistics / Level of testing
-b.	Adoption Assistance: 
-i.	Adoption Examples – who is using this software and for what?
-1.	Highlight use cases – what are the real life situations this OSS is deployed? 
-2.	Point to customer case studies on website /elsewhere
-ii.	Risk Reduction: 
-1.	List metrics such as Trucking Factor (TF)10 that indicate a projects fragility/sustenance capability,
-2.	Other links/data points to key GitHub like metrics such as commit frequency, pulse etc.
-3.	Limitations / Known issues:  Summary with top 3, link to full bug or issue list elsewhere on website
-iii.	Competitive Analysis Summary:  
-1.	List of primary competing OSS / Proprietary SW which can be used as an alternative
-2.	One line USP of this software as opposed to competition
-3.	Low-level Detail:
-a.	Setup Instructions
-i.	Pre-requisites (Software only)
-ii.	Configuration
-iii.	Installation / Uninstallation
-1.	README was meant to be a file about files.  It must list high level components / files that form part of the software once installed
-iv.	Troubleshooting FAQ / Guide
-v.	Building the software and other details related to creating an installable, testing, validating the installable
-1.	If this is a must for contribution – it must be mentioned here or pointers to this information elsewhere
-2.	Executing / Running
-a.	How-to FAQ/Guide on actions
-b.	How-to use the software after installation
-3.	Support / where to get help? / Knowledgebase pointers / Context-sensitive help / Content 4.0
-4.	Link to software Change log / versions
-b.	References:
-i.	Getting Started / User Manual / Deployment Guide
-ii.	Tutorial
-iii.	Reference Guide
-iv.	Reports (if applicable) on OSS performance / scale / benchmarks
-v.	Other Technical References meant specifically for developers
-4.	Footer
-a.	License
-b.	Credits
-c.	Contact
-d.	Link to How-to Contribute?
+1.	**_Header:_** (Text prefereably with a few links)
+  -	Project / Component Name 
+  -	Purpose:  Why is it needed, who is the intended audience and when will they need this software.  Note, typical README focus is on what the software does as opposed to why was it created in the first place? [Word limit – maximum two sentences, link to project website or other document that describes its purpose]
+  -	Optional: Badges, branding, Current Status, Adoption Statistics (if available) Demo screenshots, link to related concepts 
+2.	**_Mid-Section:_** (preferably all links in this section pointing to details elsewhere.)
+  -	Adoption Pre-requisites:
+    - Technology / Technical Concepts / SW Names only with suitable links
+    - Recommended / Required scale of deployment
+    - Performance / Benchmarks Statistics / Level of testing
+  - Adoption Assistance: 
+    - Adoption Examples – who is using this software and for what?
+    - Highlight use cases – what are the real life situations this OSS is deployed? 
+    - Point to customer case studies on website /elsewhere
+  - Adoption Risk Reduction: 
+    - List metrics such as Trucking Factor (TF)10 that indicate a projects fragility/sustenance capability,
+    - Other links/data points to key GitHub like metrics such as commit frequency, pulse etc.
+    - Limitations / Known issues:  Summary with top 3, link to full bug or issue list elsewhere on website
+  - Competitive Analysis Summary:  
+    - List of primary competing OSS / Proprietary SW which can be used as an alternative
+    - One line USP of this software as opposed to competition
+3.	**_Low-level Detail:_**
+  - _Setup Instructions_
+    - Pre-requisites (Software only)
+    - Configuration
+    - Installation / Uninstallation
+    - High Level Components list: README was meant to be a file about files, so it must list high level components / files that form part of the software once installed
+    - Troubleshooting FAQ / Guide during setup / installation
+    - Building the software and other details related to creating an installable, testing, validating the installable
+     _(Note: If Building/testing is a must for contribution – it must be mentioned here for users / contributors or pointers to this information elsewhere must be provided)_
+    - Executing / Running Instructions after the build process
+    -	How-to FAQ/Reference Guide on user actions and commands associated with the software 
+    - How-to-use the software after installation
+    - Support / where to get help? / Knowledgebase pointers / Context-sensitive help / Content 4.0
+    - Link to software Change log / versions
+  - _References:_
+    - Getting Started / User Manual / Deployment Guide
+    - Tutorial
+    - Reference Guide
+    - Reports (if applicable) on OSS performance / scale / benchmarks
+    - Other Technical References meant specifically for developers
+4.	**_Footer:_**
+    - License:
+    - Credits:
+    - Contact:
+    - Links to: [How-to Contribute], [Code of Conduct]
 
 ## Benefits of Structured README
 
-•	Simplicity: Retains the simplicity of README, targets wider audience.
-•	Concise yet Complete: Structured key points in README can be browsed quickly by empowering the audience to compare two OSS components beyond ‘what each component does’ to a finer level of granularity – not only at technical and maturity level but also in terms of ease of onboarding.
-•	Flexibility: Empowers the reader to get a snapshot quickly, comprehend the purpose, without getting lost in low level detail or go to the low level details right away, if they choose to.
-•	Ease of Contribution: If it takes time to figure out how to contribute, there will be few takers willing to cross the chasm of time.  Having a well defined section that clearly addresses this need will make it easier to jump the chasm.
-•	Speedy Value Proposition: With a structured README, prospective OSS users can figure out the maturity of the software and how receptive the developers are towards customer needs. This can have a tremendous impact not only on adoption but also towards contributions and avoidance of duplication of efforts.
-•	Assess Adoption Risks Upfront: Metrics such as Trucking Factor (TF), active users, contributors and presence of user documentation can help business managers access risks associated with adoption of open source software. This can boost adoption of good quality OSS that are more reliable and adoption-ready than others.
-Conclusion
+1. **Simplicity:** Retains the simplicity of README, targets wider audience.
+2. **Concise yet Complete:**  Structured key points in README can be browsed quickly by empowering the audience to compare two OSS components beyond ‘what each component does’ to a finer level of granularity – not only at technical and maturity level but also in terms of ease of onboarding.
+3. **Flexibility:** Empowers the reader to get a snapshot quickly, comprehend the purpose, without getting lost in low level detail or go to the low level details right away, if they choose to.
+4. **Ease of Contribution:** If it takes time to figure out how to contribute, there will be few takers willing to cross the chasm of time.  Having a well defined section that clearly addresses this need will make it easier to jump the chasm.
+5. **Speedy Value Proposition:** With a structured README, prospective OSS users can figure out the maturity of the software and how receptive the developers are towards customer needs. This can have a tremendous impact not only on adoption but also towards contributions and avoidance of duplication of efforts.
+6. **Assess Adoption Risks Upfront:** Metrics such as Trucking Factor (TF), active users, contributors and presence of user documentation can help business managers access risks associated with adoption of open source software. This can boost adoption of good quality OSS that are more reliable and adoption-ready than others.
+
+## Conclusion
+
 Brevity is the ‘soul’ of wit but cryptic for a README bodes certain death and transcendence into the enormous expanse of unused and forgotten OSS graveyard. Incomplete or confusing documentation is the biggest problem1 encountered in open source.  README is simply the tip of the iceberg. The tremendous momentum that drives techniques for developing better software excludes the other very important aspects of developing software – its adoption, usage and eventual evolution for survival.  Without the latter, however cool the software may be, it is actually worthless. There may be umpteen high quality, freely available OSS, but if hardly anyone can figure out a way to productively use to solve real life pain points or deploy it easily, then it is of no use at all.  
 
-•	Open source is used by the whole world, but its contributors don't yet reflect its broad audience.
-
+> Open source is used by the whole world, but its contributors don't yet reflect its broad audience.
 
 This article highlights common README pain points and shortcomings that can be addressed via Structured README approach. Structured README is a step towards helping OSS components and their authors reach a wider audience, boost its adoption, and to make it easy for contributors to identify and contribute towards software development and evolution. 
 
-Comments and suggestions welcome! mailto://shalz@hotmail.com
+Comments and suggestions welcome!
 
 ## References
 - Wikipedia: <https://en.wikipedia.org/wiki/README>
@@ -126,3 +127,8 @@ Comments and suggestions welcome! mailto://shalz@hotmail.com
 [how to create readme for open source software]: https://github.com/zalando/zalando-howto-open-source#creating-a-readme 
 [README Driven Development]: http://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 [OSS Survey by GitHub]:  http://opensourcesurvey.org/2017/ 
+[agile sprints]: https://confluence.atlassian.com/agile/jira-agile-user-s-guide/working-with-sprints
+[DocOps]: https://www.slideshare.net/maryfconnor/docops-documentation-at-the-speed-of-agile
+[Content 4.0]: https://www.slideshare.net/jgollner/content-40 
+[How to Contribute]: https://medium.com/@kentcdodds/introducing-how-to-contribute-to-open-source-be67917eb704 
+[Code of Conduct]: https://github.com/sindresorhus/conduct
