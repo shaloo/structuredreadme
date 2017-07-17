@@ -84,7 +84,7 @@ We live in a software development world running [agile sprints], professing [Doc
     - License:
     - Credits:
     - Contact:
-    - Links to: [How-to Contribute], [Code of Conduct]
+    - Links to: [How to Contribute], [Code of Conduct]
 
 ## Benefits of Structured README
 
