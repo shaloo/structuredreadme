@@ -1,3 +1,4 @@
+> Structured README deeply believes in the philosophy of http://contributor-covenant.org 
 > This file is sourced from [here](http://contributor-covenant.org/version/1/4/code_of_conduct.md)
 
 # Contributor Covenant Code of Conduct
