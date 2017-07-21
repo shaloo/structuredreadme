@@ -1,10 +1,12 @@
-:books:
-# Structured README
+
+![Structured README](https://github.com/shaloo/structuredreadme/blob/master/media/test.png)
+
+# Structured README 
 ![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)
 
 > Its time, README reached a much wider audience, beyond developers, to speed up OSS adoption! Structured README is an effort to help evolve README in a more structured manner, such that it covers information on how a piece of OSS can be used to solve real life pain points.
 
-## Table of content
+## Table of content :books:
 
 - [Introduction](#introduction)
 - [README pain points](#readme-pain-points)
